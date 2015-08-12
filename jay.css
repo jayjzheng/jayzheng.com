@@ -34,32 +34,10 @@ body {
   color: black;
 }
 
-.info-box {
-  border: solid 1px #ddd;
-  padding: 0 10px;
-  box-shadow: 5px 5px 5px #ccc;
+.work-in-progress ul {
+  padding-left: 10px;
 }
 
-.info-box-header {
-  border-bottom: solid 1px #ddd;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.info-box-header a:hover{
-  text-decoration: none;
-}
-
-.info-box-header h2 {
-  font-size: 24px;
-}
-
-.info-box-body {
-  padding: 10px 10px;
-}
-
-.info-box-footer {
-  border-top: solid 1px #ddd;
-  margin-top: 10px;
-  padding: 10px 0;
+.work-in-progress li {
+  font-size: 14px;
 }
