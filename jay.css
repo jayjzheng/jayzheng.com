@@ -16,7 +16,7 @@ body {
   padding: 10px;
 }
 .jumbotron {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .jumbotron a {
   color: gray;
@@ -34,10 +34,20 @@ body {
   color: black;
 }
 
-.work-in-progress ul {
-  padding-left: 10px;
-}
-
 .work-in-progress li {
   font-size: 14px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+@media(min-width:768px){
+  h4 {
+    font-size: 18px;
+  }
+
+  .jumbotron {
+    margin-bottom: 40px;
+  }
 }
