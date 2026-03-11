@@ -4,8 +4,14 @@ a:link, a:visited, a:active {
 }
 
 .content {
-  font-size: 150%;
+  max-width: 72ch;
+  font-family: monospace;
   margin: 10px 0 0 10px;
+}
+
+.section {
+  font-size: 150%;
+  margin-bottom: 1.5em;
 }
 
 .sep {
@@ -18,4 +24,17 @@ a:link, a:visited, a:active {
 
 .key {
   color: green;
+}
+
+.tagline {
+  color: #666;
+}
+
+.section-title {
+  color: green;
+}
+
+.project-name {
+  color: blue;
+  font-weight: bold;
 }
